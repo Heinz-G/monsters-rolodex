@@ -29,6 +29,7 @@ class App extends Component {
     return (
       <div className="App">
         {
+          //revisit the .map() function later in the appendix
           this.state.monsters.map((monster) => {
             return <h1>{monster.name}</h1>;
           })
